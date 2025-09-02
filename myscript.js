@@ -9,4 +9,7 @@ $(document).ready(function() {
 	$("#p1").click(function() {
 		$(".disappear").hide();
 	});
+	$("#image").hover(function(){
+		alert("You entered the image!");
+  });
 });
